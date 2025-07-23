@@ -4,6 +4,7 @@
     overflow: hidden;
 }
 
+
 .brush-image {
     flex: 1;
     display: flex;
@@ -24,6 +25,7 @@
     position: absolute;
     inset: 0;
     width: 100%;
+
     background-color: var(--primary-color);
     z-index: -1;
 }
@@ -52,14 +54,14 @@
 
 .brush-content-info p {
     color: var(--secondary-color);
-    margin: 32px 0 0 32px;
+    margin: 32px 0 0 0;
     font-size: 18px;
     font-weight: 400;
 
 }
 
 .brush-content__buttons {
-    margin: 41px 0 0 41px;
+    margin: 42px 0 0 0;
     display: flex;
 }
 
@@ -75,6 +77,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
+}
+
+.brush-content__join-button:hover {
+    background-color: var(--primary-color);
 }
 
 .brush-content__testimonial {
@@ -96,6 +102,8 @@
     font-size: 64px;
     font-weight: 400px;
 }
+
+
 
 .brush-content__customer p {
     font-size: 16px;
